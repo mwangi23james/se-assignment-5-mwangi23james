@@ -1,0 +1,320 @@
+Q1.
+The Prerequisites may include;
+1. The system should have operating system
+2. Then download the installer and updates
+
+STEPS
+1. Download the Visual Studio code installer through any web browser.
+64-bit version is the one recommended.
+
+2. launch the installer and Click "Yes" to allow the installer to proceed if the User Account Control (UAC) window appears.
+
+3. The wizard for Visual Studio Code Setup will launch. Press "Next" to continue. Click "Next" after reading and accepting the license agreement.
+Click "Next" after selecting the installation location (typically, the default place works perfectly).
+Decide which extra chores you want to complete, like:
+   - Adding actions to the context menu for "Open with Code" - Making a desktop icon - Adding to the PATH environment variable (recommended)
+After making your selections, click "Next".
+
+4. After making any necessary selections for installation, click "Install" to start the installation process.
+After installing Visual Studio Code on your computer, the installer will copy the required files. This could require many minutes.
+
+5. After the installation is finished, click "Finish" after making sure the "Launch Visual Studio Code" checkbox is checked.
+After Visual Studio Code opens, you can use it right away.
+
+Q2.
+Some of the initial configurations that can be done after installing VS code include;
+1. update the VS code 
+2. Customize the editor's appearance by choosing a theme.
+3. Adjust the font and font size to your preference.
+4. Configure the tab and indentation settings to match your coding style or project requirements.
+5. Enable auto-save to avoid losing changes.
+
+Some of the important extensions may include;
+1. programming language like python.
+2. productivity tools like dart and flutter
+
+other settings may include;
+1. Enable IntelliSense for better auto-completion
+2. Enable word wrap to avoid horizontal scrolling
+3. Sync your settings and extensions across different devices using Settings Sync
+
+Q3.
+1.Activity Bar:It is found in the vertical bar on the far left side of the window.
+Offers easy access to a variety pf displays and functions.
+
+2.Side Bar: It is found directly to the right of the Activity Bar.
+Shows panels relevant to the current context for tasks like source control, file exploration, search, and extensions.
+
+3.Editor Group: It is found in central area of the window.
+The primary editing area that allows for split views and multiple tabs.
+
+4. Status Bar: It is found in horizontal bar at the bottom of the window.
+Displays status data about the current context, including the Git branch, language mode, and cursor position.
+
+Q4.
+VS Code's Command Palette is an adaptable tool that greatly boosts productivity by providing rapid access to a variety of commands and parameters. Your workflow may be effectively managed and the editor can be tailored to your tastes by using the Command Palette.
+
+It can be accessed in two ways;
+1. By pressing ctrl+shift+p on windows or linux and cmd+shift+p on macOS
+2. Go to view then command palette.
+
+Some examples of tasks include;
+1.  Opening files 
+2. Searching commands
+3. Running tasks
+4. Installing extensions
+5. Changing language mode
+6. Formating code
+7. changing settings
+8. Git commands etc
+
+Q5.
+By connecting with other tools, enhancing current functionalities, and providing new features, extensions greatly improve VS Code. The Visual Studio Code extensions view makes it simple for users to locate, install, and manage extensions. Prettier, ESLint, Live Server, and other crucial additions that facilitate and enhance the coding experience are essential for web developers.
+
+
+Q6.
+1. Making Use of the Menu:
+Go to the menu at the top and choose View > Terminal.
+
+2. The Command Palette's Use:
+To access the Command Palette, press Ctrl+Shift+P on Windows/Linux or Cmd+Shift+P on macOS.
+Type View: Choose the Terminal by toggling it.
+
+3. Keyboard Shortcut Utilization:
+To rapidly toggle the terminal, press Ctrl+ (backtick) on Windows/Linux or Cmd+ (backtick) on macOS.
+
+The use integrated terminal:
+1. Launching Several Terminals:
+To start a new terminal instance, click the plus symbol in the terminal panel.
+
+2. Changing Terminals:
+To switch between different terminal instances, use the dropdown menu located in the terminal panel.
+
+3. Terminals for splitting:
+To split the terminal panel and view numerous terminals side by side, click the split terminal icon (two rectangles).
+
+4.Relocating and Resizing:
+To adjust the size of the terminal panel, drag its edges. To dock the terminal panel to the right side of the editor, right-click on its title and select Move Panel Right.
+
+5. Executing Input:
+As you would in any other terminal, type commands. Multiple shells, such as Command Prompt, PowerShell, Git Bash, and WSL (Windows Subsystem for Linux), are supported by the integrated terminal.
+
+For executing command-line tasks right within the editor, VS Code's integrated terminal offers a robust, practical, and configurable environment. It increases productivity by providing context-aware functionality, removing the need to jump between apps, and integrating with several extensions.
+
+
+Q7.
+HOW TO CREATE A FILE AND A FOLDER.
+1. Making Use of Explorer View
+To create a new file, click the folder icon in the Activity Bar or use the keyboard shortcut Ctrl+Shift+E to open the Explorer view.
+You can click the New File icon (a page with a +) or right-click in the Explorer pane and choose New File.
+After typing the desired file name, hit Enter.
+Create a New Folder: Right-click in the Explorer pane and select New Folder, or click the New Folder icon (a folder with a plus).
+After entering the folder name, hit Enter.
+
+2.The Command Palette's Use:
+To access the Command Palette, press Ctrl+Shift+P on Windows/Linux or Cmd+Shift+P on macOS.
+File Type: Fresh File or File: Create a new folder and choose the appropriate command.
+After entering the name of the file or folder, hit Enter.
+
+HOW TO OPEN FILES AND FOLDERS.
+1. Making Use of Explorer View
+To open a file or folder, navigate to it in the Explorer window and click on it.
+To open a folder in a new VS Code window, right-click on it and choose "Open in New Window."
+
+2.The Command Palette's Use:
+To access the Command Palette, use Ctrl+Shift+P or Cmd+Shift+P.
+File Type: Open the file or the file: Open the folder and choose the appropriate command.
+Open the relevant file or folder by browsing to it.
+
+3. Utilizing Shortcut Keyboards:
+The file browser opens when you press Ctrl+O (Windows/Linux) or Cmd+O (macOS). You can then select which file to open.
+Ctrl+K Ctrl+O can be used to open a folder.
+
+HOW TO MANAGE FILES AND FOLDERS.
+1. Changing names:
+Right-click on the file or folder in the Explorer pane, then choose Rename.
+After entering the new name, hit Enter.
+
+2.Shifting:
+To move files and folders around the Explorer interface, drag and drop them.
+To transfer files and folders between directories, use the cut (Ctrl+X), copy (Ctrl+C), and paste (Ctrl+V) commands.
+
+3. Eliminating:
+In the Explorer view, right-click on the file or folder and choose Delete.
+Verify the removal when asked.
+
+HOW USERS CAN NAVIGATE THROUGH FILES AND DIRECTOIES EFFECTIVELY.
+1. Quick Open:
+To access the Quick Open menu, use Cmd+P on macOS or Ctrl+P on Windows/Linux.
+Enter the file name you wish to open and press enter. With fuzzy matching offered by VS Code, you only need to write a portion of the name.
+From the list, choose the required file and hit Enter.
+
+2. Access Symbol:
+For Windows/Linux, press Ctrl+Shift+O; for macOS, press Cmd+Shift+O to browse to a specific symbol within the file.
+Enter the symbol's name and choose it from the list.
+
+3.Proceed to Definition:
+To view the definition of a symbol (variable, function, etc.), place the cursor over it and press F12.
+As an alternative, you can choose Go to Definition by right-clicking the symbol.
+
+3. File Explorer:
+To browse the file structure, use the Explorer view (Ctrl+Shift+E or Cmd+Shift+E).
+Press Enter to access files and folders, and use the arrow keys to navigate up and down the file tree.
+
+4. Split View and Tabs:
+Open many files in separate tabs. To navigate between open files, click the tabs.
+By moving a tab to the side or using the split editor button on the tab, you can use split view to work on multiple files simultaneously.
+
+5.Combined Terminal:
+Command-line commands can be used to open files and explore directories using the integrated terminal (Ctrl+ or Cmd+).
+
+
+Q8.
+1. Getting to the Settings UI:
+Use Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (macOS) to open the Command Palette.
+
+2. Preferences for Type: Click on Settings (UI) and choose it.
+
+3. Configuration File:
+Type Preferences into the Command Palette to open it: To access the settings file directly for manual editing, select Settings (JSON).
+
+ Customization settings:
+1. Click the Settings UI (Ctrl+, or Cmd+,) icon.
+In the upper search bar, enter Color Theme.
+From the dropdown menu, choose Preferences: Color Theme.
+Look through the installed themes list and pick a theme. The modifications become effective right away.
+
+2.Using the Command Palette:
+Using Ctrl+Shift+P or Cmd+Shift+P, you can access the Command Palette.
+Enter "Preferences: Color Theme" and hit the Enter key.
+From the list, choose a theme.
+
+3.Using the Settings File:
+Press Ctrl+Shift+P and type Preferences: Open Settings (JSON) to open the settings JSON file.
+
+Using the Settings UI to Change the Font Size:
+1. Ctrl+ or Cmd+ to open the Settings user interface.
+Enter Font Size into the search bar.
+Set the desired value in the Editor: Font Size field.
+
+2. Through the Settings File:
+Use Ctrl+Shift+P to open the settings JSON file (type Preferences: Open Settings (JSON)). eg. "editor.fontSize": 14, where 14 can be any font size you need.
+
+Using the Keybindings UI to Change Keybindings:
+1. Press Ctrl + Shift + P or Cmd + Shift + P to open the Command Palette.
+Preferences for Type: Launch Keyboard Shortcuts, then choose it.
+To locate the command you wish to rebind, use the search bar.
+Press the new key combination after selecting the pencil icon next to the command.
+
+2. Keybindings File via:
+Press Ctrl + Shift + P or Cmd + Shift + P to open the Command Palette.
+Preferences for Type: Keyboard Shortcuts (JSON) can be opened and chosen.
+Example. after opening JSON, ENTER the command 
+[
+  {
+    "key": "ctrl+k ctrl+s",
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "workbench.action.files.newUntitledFile"
+  }
+]
+
+
+Q9.
+Steps to Set Up and Start Debugging
+
+1. Install Required Extensions:
+Install the appropriate debugger extension for the programming language you are using. As an illustration:
+Install the Python extension using Python.
+Install the built-in JavaScript Debugger for JavaScript/Node.js.
+C/C++: Set up the extension for C/C++.
+Press Ctrl+Shift+X (Windows/Linux) or Cmd+Shift+X (macOS) to enter the Extensions window and search for the extension in order to install it.
+
+2.Launch Your Initiative:
+To access your project folder, open Visual Studio Code and use File > Open Folder or Ctrl+K Ctrl+O.
+
+3.Establish a Launch Setup:
+You can use the Activity Bar's Debug icon or the keyboard shortcut Ctrl+Shift+D to access the Debug view.
+To customize the launch parameters, click the gear icon. This produces a launch.json file under the—vscode folder.
+Choose the right setting for your language (e.g., Node.js, Python)
+
+4. Establish breakpoints:
+To add a breakpoint, open the file you wish to debug and click in the left margin next to the line number. There will be an indication of a breakpoint via a red dot.
+
+5.Begin debugging:
+To begin debugging in the Debug window, click the green play button or hit F5. When your application runs, VS Code will pause execution at the breakpoints.
+
+Key Debugging Features in VS Code
+
+1.Breakpoints:
+By clicking on the left margin, you can set breakpoints. Additionally, conditional logpoints and breakpoints can be established.
+
+2. Keep an eye on the variables:
+As you walk through the code, add variables to the Watch panel and keep an eye on their values.
+
+3.Call Stack:
+To see the list of function calls that lead to the current execution point, view the call stack.
+
+4.Go Through the Code Step by Step:
+The controls shown below can be used to move about your code:
+Proceed (F5): Continue operating until the subsequent breakpoint.
+Step Over (F10): Go to the following line of code without calling any functions.
+Enter (F11): Make a call to a function.
+Press Shift + F11 to exit. Return to the caller after quitting the current function.
+
+5.Inspection Variable:
+To view a variable's current value in the editor, hover over it.
+To examine and edit variables, use the Variables panel in the Debug view.
+
+6.Debugging Console:
+To evaluate expressions and run commands within the context of the halted application, use the Debug Console.
+
+7.Combined Terminal:
+To execute commands and scripts without leaving the editor, use the integrated terminal.
+
+
+Q10.
+Prerequisites for Integrating Git with VS Code
+1. Installing Git: Make sure your system has Git installed. It is available for download and installation on the Git website.
+2. GitHub Account: To push changes to a GitHub repository, you must have a GitHub account.
+
+Initializing a Repository
+1. Open Your Project Folder:
+Open VS Code and navigate to your project folder using File > Open Folder or Ctrl+K Ctrl+O.
+
+2. Initialize a Git Repository:
+Open the Source Control view by clicking the Source Control icon in the Activity Bar on the side of the window or pressing Ctrl+Shift+G.
+Click on the Initialize Repository button.
+Alternatively, you can open the integrated terminal (Ctrl+ or Cmd+) and run the command "git init" in Bash.
+
+Making Commits
+1. Stage Changes:
+In the Source Control view, you will see a list of changed files.
+Hover over the file you want to stage and click the + icon, or click the + icon next to Changes to stage all changes.
+
+2.Write a Commit Message:
+Enter a descriptive commit message in the input box at the top of the Source Control view.
+
+3.Commit the Changes:
+Click the checkmark icon or press Ctrl+Enter to commit the staged changes
+
+Example, put the following commands in bash. 
+git add .
+git commit -m "Your commit message"
+
+Pushing Changes to GitHub
+1. Create a GitHub Repository:
+Go to GitHub and create a new repository.
+Copy the repository URL (HTTPS or SSH).
+
+2.Add the Remote Repository:
+In VS Code, open the integrated terminal (Ctrl+ or Cmd+).
+Add the GitHub repository as a remote, e.g "git remote add origin https://github.com/yourusername/your-repo.git"
+
+3.Push Changes:
+Push your commits to the GitHub repository, e.g "git push -u origin master"
+or "git push"
+
+
